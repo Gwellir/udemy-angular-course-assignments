@@ -1,0 +1,6 @@
+.warning-alert {
+    background-color: lightcoral;
+    border-radius: 3px;
+    box-shadow: 2px 2px 0 0 grey;
+    padding: 10px;
+}
