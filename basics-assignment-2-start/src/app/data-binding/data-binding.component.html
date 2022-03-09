@@ -1,0 +1,11 @@
+<input 
+    type="text" 
+    class="form-control"
+    placeholder="Enter your username"
+    [(ngModel)]="username">
+<p>{{ username }}</p>
+<button
+    class="btn btn-danger"
+    [disabled]="!username"
+    (click)="onResetUsername()"
+    >Reset username</button>
